@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.bg {
+  height: 100vh;
+  width: 100vw;
+
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 67.71%, #000 100%),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%),
+    url(/images/clgimg.jpg), lightgray 50%;
+  /* background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 69.58%, #000 100%),linear-gradient(0deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%), rgba(0, 0, 0, 0.80),url(/images/clgimg.jpg), lightgray 50%; */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.lg-img {
+  width: 60%;
+  height: 60%;
+  margin-right: 0px;
+  margin: 40px;
+}
+
+.one{
+    font-size:300px;
+    color:white;
+    margin:100px;
+    padding:300px;
+
+}
+
+p{
+    font-size:250px;
+    color:white;
+    margin:10px;
+    padding:200px;
+
+}
+h2{
+    font-size:250px;
+    color:white;
+}
+/* 
+.nav-brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.nav-item {
+  font-size: 4rem;
+  font-weight: bold;
+}
+.nav-item .nav-link {
+  color: white;
+}
+.navbar-nav {
+  width: 100%;
+}
+
+.btn{
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: lora;
+  color: #ff0000;
+  font-size: 8rem;
+  background: transparent;
+  padding: 9px 30px 10px 30px;
+  border: solid white 2px;
+  text-decoration: none;
+}
+/* .btn:hover {
+  background: #b3000f;
+  text-decoration: none;
+} */
